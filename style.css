@@ -37,4 +37,46 @@
   font-size: 1rem;
   margin-top: 5px;
 }
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 999;
+}
+
+.social-bar a {
+  display: block;
+  margin: 10px 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.social-bar a:hover {
+  transform: translateX(-10px);
+}
+
+.social-bar a i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.social-bar a i.fa-facebook {
+  background: #3b5998;
+}
+
+.social-bar a i.fa-twitter {
+  background: #1da1f2;
+}
+
+.social-bar a i.fa-instagram {
+  background: #e1306c;
+}
 </style>
